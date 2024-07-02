@@ -1,0 +1,63 @@
+/* Home.css */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    gap: 2rem;
+    background-image: linear-gradient(to right, #FFDCAB, #AB6B2E);
+  }
+  
+  .content {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .title {
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .relative-container {
+    position: relative;
+  }
+  
+  .absolute-top-right {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 999px;
+    box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+  }
+  
+  .absolute-bottom-left {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    bottom: 0;
+    left: -2.5rem;
+    border-radius: 999px;
+  }
+  

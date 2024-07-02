@@ -1,0 +1,16 @@
+/* Button.css */
+
+.button {
+    padding: 6px 24px;
+    border: 2px solid white;
+    background-color: #FFDCAB;
+    color: #000000; /* Adjust text color as needed */
+    border-radius: 999px; /* Rounded to make it a circle or adjust as per design */
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    color: #AB6B2E; /* Text color on hover */
+    background-color: transparent; /* Background color on hover */
+  }
+  

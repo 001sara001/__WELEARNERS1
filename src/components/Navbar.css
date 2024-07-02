@@ -1,0 +1,114 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Navbar content */
+.navbar-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+  background-image: linear-gradient(to right, #FFDCAB, #AB6B2E);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo and menu links container */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo text style */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Main navigation links */
+.navbar-nav {
+  display: none; /* Initially hidden for smaller screens */
+}
+
+.navbar-nav a {
+  position: relative;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  color: #AB6B2E;
+}
+
+/* Active link indicator */
+.navbar-nav a.active::after {
+  content: '';
+  position: absolute;
+  inset-x: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #AB6B2E;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav a.active:hover::after,
+.navbar-nav a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Button container */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Mobile menu */
+.navbar-mobile {
+  display: none; /* Initially hidden for larger screens */
+}
+
+.navbar-mobile.active {
+  transform: translateX(0);
+}
+
+.navbar-mobile-content {
+  position: absolute;
+  left: 0;
+  top: 4rem; /* Adjust as needed */
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.navbar-mobile-content a {
+  display: block;
+  padding: 0.5rem 0;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-mobile-content a:hover {
+  color: #AB6B2E;
+}
+
+/* Close menu icon */
+.navbar-mobile-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}

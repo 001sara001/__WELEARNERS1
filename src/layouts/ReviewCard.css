@@ -1,0 +1,43 @@
+/* ReviewCard.css */
+.review-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 33.3333%; /* lg:w-2/6 equivalent */
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem; /* rounded-lg equivalent */
+    margin-bottom: 1rem;
+  }
+  
+  .review-card .review-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .review-card .review-content .avatar {
+    width: 25%; /* w-1/4 equivalent */
+  }
+  
+  .review-card .review-content .info {
+    margin-left: 1rem;
+  }
+  
+  .review-card .review-content .info h2 {
+    font-weight: 600; /* font-semibold equivalent */
+    font-size: 1.25rem; /* text-lg equivalent */
+  }
+  
+  .review-card .review-content .info .stars {
+    display: flex;
+  }
+  
+  .review-card .quote-icon {
+    margin-left: auto;
+  }
+  
+  .review-card p {
+    margin-top: 1rem;
+  }
+  

@@ -1,0 +1,47 @@
+/* MenuCard.css */
+
+.menu-card {
+    width: 100%;
+    max-width: 25rem; /* Adjust max-width as per your design */
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .menu-card .card-content {
+    padding: 0.75rem 0;
+  }
+  
+  .menu-card .card-content h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  
+  .menu-card .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .menu-card .button-container button {
+    background-color: #3490dc;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-card .button-container button:hover {
+    background-color: #2779bd;
+  }
+  

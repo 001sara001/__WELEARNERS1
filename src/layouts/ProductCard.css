@@ -1,0 +1,33 @@
+/* ProductCard.css */
+.product-card {
+    width: 100%;
+    max-width: 25rem; /* lg:w-1/4 equivalent */
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.75rem; /* rounded-lg equivalent */
+  }
+  
+  .product-card img {
+    border-radius: 0.5rem; /* rounded-lg for the image */
+  }
+  
+  .product-card h2 {
+    font-weight: 600; /* font-semibold equivalent */
+    font-size: 1.5rem; /* text-xl equivalent */
+    margin-bottom: 0.75rem;
+  }
+  
+  .product-card .stars {
+    display: flex;
+  }
+  
+  .product-card .stars svg {
+    color: #f6ad55; /* text-brightColor equivalent */
+  }
+  
+  .product-card h3 {
+    font-weight: 600; /* font-semibold equivalent */
+    font-size: 1.25rem; /* text-lg equivalent */
+    margin-top: 0.5rem;
+  }
+  
